@@ -983,10 +983,8 @@ h6 {
 }
 
 @media (max-width: 75em) {
-  .tagline {
-    background-size: auto 100%;
-    background-position: center;
-  }
+  .no-webp .tagline{
+    background: url("../img/tagline/bg.jpg") center/auto 100% no-repeat; }
 
   .kitchenImage {
     background: none;
@@ -1377,3 +1375,8 @@ h6 {
 .webp .kitchenImage{ background: url(../img/kitchen/image.webp) 0 0/100% 100% no-repeat; }
 
 .webp .bedroomImage{ background: url(../img/bedroom/IMAGE.webp) 0 0/100% 100% no-repeat; }
+
+@media (max-width: 75em){
+
+  .webp .tagline{ background: url(../img/tagline/bg.webp) center/auto 100% no-repeat; }
+}
